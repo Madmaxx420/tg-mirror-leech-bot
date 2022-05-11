@@ -34,8 +34,8 @@ except Exception as f:
 
 def start(update, context):
     buttons = ButtonMaker()
-    buttons.buildbutton("Repo", "https://www.github.com/Appeza/tg-mirror-leech-bot")
-    buttons.buildbutton("Report Group", "https://t.me/+TWOOFONY5TZAgIgL")
+    buttons.buildbutton("Repo", "https://www.github.com/Subhan-1")
+    buttons.buildbutton("Group", "https://t.me/kd_botz")
     reply_markup = InlineKeyboardMarkup(buttons.build_menu(2))
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
         start_string = f'''
